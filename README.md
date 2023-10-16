@@ -1,6 +1,8 @@
 # Thermal Comfort System
 <p align="justify"> 
 Thermal comfort is an emerging variable that plays a crucial role in maximizing human productivity and creating livable environments. This project combines the power of Internet of Things (IoT) and machine learning to create a personalized model for thermal comfort. It utilizes environmental sensors, such as temperature and humidity sensors, along with video cameras to gather data on individual activities, clothing, age, and gender. These factors are essential for understanding an individual's thermal sensation.
+  
+Thermal comfort systems have the potential to be used in a variety of settings, such as homes, offices, schools, and hospitals, to improve thermal comfort and productivity.The project was my main project for my Bachelor of Technology in Computer Science and Engineering degree under APJKTU.  
 </p>
 
 ## Table of Contents
@@ -38,10 +40,9 @@ The primary objective of this project is to develop a sophisticated system that 
 
 ## How It Works
 <p align="justify"> 
-The project utilizes a network of sensors, including temperature, humidity, and ultrasonic sensors, to continuously collect environmental data. A camera is used to capture data on individual activities, clothing, age, and gender, which are vital factors in determining thermal comfort.
+The project utilizes a network of sensors, including temperature, humidity, and ultrasonic sensors, to continuously collect environmental data. A camera is used to capture data on individual activities, clothing, age, and gender, which are vital factors in determining thermal comfort. A thermal comfort prediction model has been trained on a dataset of thermal comfort data collected from a variety of individuals under different environmental conditions. The model takes into account a variety of factors, including environmental conditions, individual activities, clothing choices, age, and gender.
 
-Machine learning models and various APIs are employed to predict clothing, activity, age, and gender-based on real-time data captured by the camera. A thermal comfort prediction model combines all the data to provide precise and accurate thermal comfort predictions, taking into account psychological and physiological factors. 
-The system will continuously capture data, predict thermal comfort, and send the results to the Azure IoT Hub. The data and results are visualized in the PowerBI dashboard.
+Machine learning models and various APIs are employed to predict clothing, activity, age, and gender-based on real-time data captured by the camera. The thermal comfort prediction model combines all the data to provide precise and accurate thermal comfort predictions, taking into account psychological and physiological factors. The system will continuously capture data, predict thermal comfort, and send the results to the Azure IoT Hub. The data and results are visualized in the PowerBI dashboard.
 </p>
 
 ## Software and Hardware Used
